@@ -8,6 +8,8 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import GoogleMaps
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.sharedManager().enableAutoToolbar = false
         IQKeyboardManager.sharedManager().shouldShowToolbarPlaceholder = true
         IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        
+        GMSServices.provideAPIKey("AIzaSyBvrCwuehY8SuHzLzm60ziXNCB5ehXpXRs")
+       // GMSPlacesClient.provideAPIKey("AIzaSyBvrCwuehY8SuHzLzm60ziXNCB5ehXpXRs")
+       
         return true
     }
 

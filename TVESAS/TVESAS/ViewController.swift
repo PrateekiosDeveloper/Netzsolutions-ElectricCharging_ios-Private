@@ -56,5 +56,10 @@ class ViewController: UIViewController,UITextFieldDelegate
         let SignupVCObj = self.storyboard?.instantiateViewController(withIdentifier: "SignupVC") as? SignupVC
         self.navigationController?.pushViewController(SignupVCObj!, animated: true)
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {   //delegate method
+        textField.resignFirstResponder()
+        return true
+    }
 }
 

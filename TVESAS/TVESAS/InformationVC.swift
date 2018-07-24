@@ -14,13 +14,18 @@ class InformationVC: UIViewController,UIWebViewDelegate
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        SVProgressHUD .show()
+     
         let url = NSURL (string: "http://zeroguess.net/006/evc/")
        let requestObj = URLRequest(url: url! as URL)
         web_view.loadRequest(requestObj)
-         SVProgressHUD .dismiss()
+         
      }
 
+    override func viewWillAppear(_ animated: Bool)
+    {
+        super.viewWillAppear(animated)
+        SVProgressHUD .dismiss()
+    }
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()

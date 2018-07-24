@@ -147,7 +147,7 @@ let kUserLoginDict = "UserDict"
 let kLoginbaseURl = "http://zeroguess.net/010/chargingMachine/server/actionUser.php"
 
 
-let kCategorybaseURl = "http://zeroguess.net/008/lottd/server/category.php"
+let kAllmachineDetailbaseURl = "http://zeroguess.net/010/chargingMachine/server/actionMachineStation.php"
 let kActivitybaseURl = "http://zeroguess.net/008/lottd/server/activity.php"
 let kReminderbaseURl = "http://zeroguess.net/008/lottd/server/reminder.php"
 

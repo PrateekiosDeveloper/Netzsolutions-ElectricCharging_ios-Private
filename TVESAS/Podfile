@@ -11,7 +11,10 @@ target 'TVESAS' do
   pod 'SVProgressHUD'
   pod 'IQKeyboardManagerSwift', '~> 5.0.2'
   pod 'SDWebImage'
+   pod 'GoogleMaps'
+  
   target 'TVESASTests' do
+      
     inherit! :search_paths
     # Pods for testing
   end

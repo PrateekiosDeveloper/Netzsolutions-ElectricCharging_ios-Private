@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050F3F382105E4ED00F16639 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050F3F372105E4ED00F16639 /* CoreLocation.framework */; };
+		050F3F3A2106155900F16639 /* texi.png in Resources */ = {isa = PBXBuildFile; fileRef = 050F3F392106155800F16639 /* texi.png */; };
+		050F3F3C210648E200F16639 /* texinew.png in Resources */ = {isa = PBXBuildFile; fileRef = 050F3F3B210648E200F16639 /* texinew.png */; };
+		0514F24C210738D6007E2DB5 /* ChargingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514F24B210738D6007E2DB5 /* ChargingDetailVC.swift */; };
+		0514F24E21073FD7007E2DB5 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514F24D21073FD5007E2DB5 /* logo_white.png */; };
+		0514F25021073FDC007E2DB5 /* splashscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514F24F21073FDB007E2DB5 /* splashscreen.jpg */; };
+		0514F25221073FE4007E2DB5 /* drive_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514F25121073FE2007E2DB5 /* drive_direction.png */; };
+		0514F25421073FE8007E2DB5 /* back_arrow_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514F25321073FE7007E2DB5 /* back_arrow_green.png */; };
+		0514F2562107415A007E2DB5 /* electric_car_charging_icon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0514F2552107415A007E2DB5 /* electric_car_charging_icon_black.png */; };
+		0514F25821076A4F007E2DB5 /* splash-screen-no-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514F25721076A4E007E2DB5 /* splash-screen-no-logo.jpg */; };
 		0545C03A20FF46340033BDFF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0545C03920FF46320033BDFF /* SWRevealViewController.m */; };
 		0545C03C20FF4F320033BDFF /* RightViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545C03B20FF4F320033BDFF /* RightViewCell.swift */; };
 		0545C03E20FF5DF30033BDFF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545C03D20FF5DF30033BDFF /* ProfileVC.swift */; };
@@ -66,6 +76,16 @@
 
 /* Begin PBXFileReference section */
 		021E99FAD4876DF0069213D3 /* Pods-TVESASUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVESASUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVESASUITests/Pods-TVESASUITests.release.xcconfig"; sourceTree = "<group>"; };
+		050F3F372105E4ED00F16639 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		050F3F392106155800F16639 /* texi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texi.png; sourceTree = "<group>"; };
+		050F3F3B210648E200F16639 /* texinew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texinew.png; sourceTree = "<group>"; };
+		0514F24B210738D6007E2DB5 /* ChargingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingDetailVC.swift; sourceTree = "<group>"; };
+		0514F24D21073FD5007E2DB5 /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
+		0514F24F21073FDB007E2DB5 /* splashscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashscreen.jpg; sourceTree = "<group>"; };
+		0514F25121073FE2007E2DB5 /* drive_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drive_direction.png; sourceTree = "<group>"; };
+		0514F25321073FE7007E2DB5 /* back_arrow_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow_green.png; sourceTree = "<group>"; };
+		0514F2552107415A007E2DB5 /* electric_car_charging_icon_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electric_car_charging_icon_black.png; sourceTree = "<group>"; };
+		0514F25721076A4E007E2DB5 /* splash-screen-no-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "splash-screen-no-logo.jpg"; sourceTree = "<group>"; };
 		0545C03720FF46260033BDFF /* TVESAS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVESAS-Bridging-Header.h"; sourceTree = "<group>"; };
 		0545C03820FF46300033BDFF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0545C03920FF46320033BDFF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -124,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050F3F382105E4ED00F16639 /* CoreLocation.framework in Frameworks */,
 				71F3650466B5A5F88498545E /* Pods_TVESAS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,9 +198,17 @@
 				0558BA1820FDFEDD0042B15C /* AppDelegate.swift */,
 				0545C03820FF46300033BDFF /* SWRevealViewController.h */,
 				0545C03920FF46320033BDFF /* SWRevealViewController.m */,
+				0514F24D21073FD5007E2DB5 /* logo_white.png */,
 				0545C04320FF799A0033BDFF /* emptyimage.png */,
+				050F3F392106155800F16639 /* texi.png */,
+				0514F25721076A4E007E2DB5 /* splash-screen-no-logo.jpg */,
+				050F3F3B210648E200F16639 /* texinew.png */,
+				0514F25121073FE2007E2DB5 /* drive_direction.png */,
 				0558BA6F20FE5F740042B15C /* RightViewController.swift */,
+				0514F2552107415A007E2DB5 /* electric_car_charging_icon_black.png */,
+				0514F25321073FE7007E2DB5 /* back_arrow_green.png */,
 				0558BA7120FE61760042B15C /* HomeViewController.swift */,
+				0514F24F21073FDB007E2DB5 /* splashscreen.jpg */,
 				0558BA1A20FDFEDD0042B15C /* ViewController.swift */,
 				0558BA6620FE17890042B15C /* SignupVC.swift */,
 				0558BA1C20FDFEDD0042B15C /* Main.storyboard */,
@@ -196,6 +225,7 @@
 				0545C04120FF60400033BDFF /* EditProfileVC.swift */,
 				05B785692101EDE70011A18E /* InformationVC.swift */,
 				05B7856B2101EE4B0011A18E /* PaymentVC.swift */,
+				0514F24B210738D6007E2DB5 /* ChargingDetailVC.swift */,
 			);
 			path = TVESAS;
 			sourceTree = "<group>";
@@ -257,6 +287,7 @@
 		67A36146733B139FEB25FDA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				050F3F372105E4ED00F16639 /* CoreLocation.framework */,
 				9E7A5B614B105CEAC962AB3A /* Pods_TVESAS.framework */,
 				F2A11160D159082EEE4D0E04 /* Pods_TVESASTests.framework */,
 				2F33FEAF71A4737C46FEA2EC /* Pods_TVESASUITests.framework */,
@@ -289,6 +320,7 @@
 				0558BA1220FDFEDC0042B15C /* Frameworks */,
 				0558BA1320FDFEDC0042B15C /* Resources */,
 				BBE859987ACD5531A5216FB3 /* [CP] Embed Pods Frameworks */,
+				59B1E71267E633C0C474B987 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -387,10 +419,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0558BA2320FDFEEC0042B15C /* LaunchScreen.storyboard in Resources */,
+				0514F2562107415A007E2DB5 /* electric_car_charging_icon_black.png in Resources */,
+				050F3F3A2106155900F16639 /* texi.png in Resources */,
+				0514F25221073FE4007E2DB5 /* drive_direction.png in Resources */,
+				0514F24E21073FD7007E2DB5 /* logo_white.png in Resources */,
 				0558BA2020FDFEEC0042B15C /* Assets.xcassets in Resources */,
 				0558BA1E20FDFEDD0042B15C /* Main.storyboard in Resources */,
+				0514F25021073FDC007E2DB5 /* splashscreen.jpg in Resources */,
 				0558BA4A20FE155F0042B15C /* FontFemily in Resources */,
 				0545C04420FF799B0033BDFF /* emptyimage.png in Resources */,
+				0514F25821076A4F007E2DB5 /* splash-screen-no-logo.jpg in Resources */,
+				0514F25421073FE8007E2DB5 /* back_arrow_green.png in Resources */,
+				050F3F3C210648E200F16639 /* texinew.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +467,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59B1E71267E633C0C474B987 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TVESAS/Pods-TVESAS-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TVESAS/Pods-TVESAS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBE859987ACD5531A5216FB3 /* [CP] Embed Pods Frameworks */ = {
@@ -516,6 +574,7 @@
 				0545C03E20FF5DF30033BDFF /* ProfileVC.swift in Sources */,
 				0558BA6720FE17890042B15C /* SignupVC.swift in Sources */,
 				0558BA6020FE15980042B15C /* UIButtonFontClass.swift in Sources */,
+				0514F24C210738D6007E2DB5 /* ChargingDetailVC.swift in Sources */,
 				0558BA6220FE15980042B15C /* UITextFieldCustomClass.swift in Sources */,
 				0558BA4720FE14770042B15C /* SetPinVC.swift in Sources */,
 				0558BA1920FDFEDD0042B15C /* AppDelegate.swift in Sources */,
@@ -612,7 +671,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -634,6 +693,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -672,7 +732,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -687,6 +747,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -700,8 +761,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				INFOPLIST_FILE = TVESAS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -710,7 +772,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
+				PROVISIONING_PROFILE_SPECIFIER = ElectricChargingProvisionalProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "TVESAS/TVESAS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -724,8 +787,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				INFOPLIST_FILE = TVESAS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -734,7 +798,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
+				PROVISIONING_PROFILE_SPECIFIER = ElectricChargingProvisionalProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "TVESAS/TVESAS-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

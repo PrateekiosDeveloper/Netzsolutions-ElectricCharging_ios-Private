@@ -44,9 +44,9 @@ class Networkmanager: NSObject
     
     
     
-    func loginWithCatParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
+    func loginWithStationDetailParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
     {
-        let postURL = String(format: "\(kCategorybaseURl)")
+        let postURL = String(format: "\(kAllmachineDetailbaseURl)")
         var request = URLRequest(url: URL(string: postURL)!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")

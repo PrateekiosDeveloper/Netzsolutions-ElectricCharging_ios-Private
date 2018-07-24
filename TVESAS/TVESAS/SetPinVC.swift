@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class SetPinVC: UIViewController
+class SetPinVC: UIViewController,UITextFieldDelegate
 {
 
     var classname = String()
@@ -38,6 +38,11 @@ class SetPinVC: UIViewController
             Utils.showAlertWithMessage(message: "Please enter Pin!", onViewController: self)
             return false
         }
+        return true
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {   //delegate method
+        textField.resignFirstResponder()
         return true
     }
     @IBAction func Signupclicked(_sender : UIButton)
