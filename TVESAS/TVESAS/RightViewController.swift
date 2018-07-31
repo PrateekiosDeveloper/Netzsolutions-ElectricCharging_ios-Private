@@ -43,16 +43,15 @@ class RightViewController: UIViewController, UITableViewDataSource,UITableViewDe
     {
         print("Error while updating location " + error.localizedDescription)
     }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
     {
         let userLocation:CLLocation = locations[0] as CLLocation
         
         
-   
-        
-        
         let geoCoder = CLGeocoder()
         let location = CLLocation(latitude: userLocation.coordinate.latitude, longitude: userLocation.coordinate.longitude)
+        
         geoCoder.reverseGeocodeLocation(location, completionHandler: { (placemarks, error) -> Void in
             
             // Place details
@@ -109,10 +108,12 @@ class RightViewController: UIViewController, UITableViewDataSource,UITableViewDe
         if indexPath.row==0
         {
             SVProgressHUD .show()
+            
             locationManager.delegate = self
             locationManager.startUpdatingLocation()
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestAlwaysAuthorization()
+            
         }
         if indexPath.row==1
         {

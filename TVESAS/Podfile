@@ -11,7 +11,11 @@ target 'TVESAS' do
   pod 'SVProgressHUD'
   pod 'IQKeyboardManagerSwift', '~> 5.0.2'
   pod 'SDWebImage'
-   pod 'GoogleMaps'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'BarcodeScanner'
+  
+  
   
   target 'TVESASTests' do
       

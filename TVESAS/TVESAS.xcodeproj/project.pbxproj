@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05048D49210F1F2900D60A3E /* StartChargingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05048D48210F1F2900D60A3E /* StartChargingVC.swift */; };
 		050F3F382105E4ED00F16639 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050F3F372105E4ED00F16639 /* CoreLocation.framework */; };
 		050F3F3A2106155900F16639 /* texi.png in Resources */ = {isa = PBXBuildFile; fileRef = 050F3F392106155800F16639 /* texi.png */; };
 		050F3F3C210648E200F16639 /* texinew.png in Resources */ = {isa = PBXBuildFile; fileRef = 050F3F3B210648E200F16639 /* texinew.png */; };
@@ -52,6 +53,8 @@
 		0558BA7420FE650A0042B15C /* CustomtabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558BA7320FE650A0042B15C /* CustomtabbarVC.swift */; };
 		05B7856A2101EDE70011A18E /* InformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B785692101EDE70011A18E /* InformationVC.swift */; };
 		05B7856C2101EE4B0011A18E /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7856B2101EE4B0011A18E /* PaymentVC.swift */; };
+		05D38D62210A3F5300710C6C /* ChargingAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D38D61210A3F5300710C6C /* ChargingAmountVC.swift */; };
+		05E36CD82108DE3E002F6CA4 /* DirectionMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E36CD72108DE3E002F6CA4 /* DirectionMapVC.swift */; };
 		315B73D023E9424EBCE4B5D9 /* Pods_TVESASTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A11160D159082EEE4D0E04 /* Pods_TVESASTests.framework */; };
 		71F3650466B5A5F88498545E /* Pods_TVESAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7A5B614B105CEAC962AB3A /* Pods_TVESAS.framework */; };
 		870B0287D0EA3D0A82F13869 /* Pods_TVESASUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F33FEAF71A4737C46FEA2EC /* Pods_TVESASUITests.framework */; };
@@ -76,6 +79,7 @@
 
 /* Begin PBXFileReference section */
 		021E99FAD4876DF0069213D3 /* Pods-TVESASUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVESASUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVESASUITests/Pods-TVESASUITests.release.xcconfig"; sourceTree = "<group>"; };
+		05048D48210F1F2900D60A3E /* StartChargingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StartChargingVC\U0010.swift"; sourceTree = "<group>"; };
 		050F3F372105E4ED00F16639 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		050F3F392106155800F16639 /* texi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texi.png; sourceTree = "<group>"; };
 		050F3F3B210648E200F16639 /* texinew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texinew.png; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		0558BA7320FE650A0042B15C /* CustomtabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomtabbarVC.swift; sourceTree = "<group>"; };
 		05B785692101EDE70011A18E /* InformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationVC.swift; sourceTree = "<group>"; };
 		05B7856B2101EE4B0011A18E /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		05D38D61210A3F5300710C6C /* ChargingAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingAmountVC.swift; sourceTree = "<group>"; };
+		05E36CD72108DE3E002F6CA4 /* DirectionMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionMapVC.swift; sourceTree = "<group>"; };
 		2F33FEAF71A4737C46FEA2EC /* Pods_TVESASUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVESASUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2DC865CCC092927EDB43B2 /* Pods-TVESASUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVESASUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVESASUITests/Pods-TVESASUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		681C3125DC3737B8BC8BDB07 /* Pods-TVESASTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVESASTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVESASTests/Pods-TVESASTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +232,9 @@
 				05B785692101EDE70011A18E /* InformationVC.swift */,
 				05B7856B2101EE4B0011A18E /* PaymentVC.swift */,
 				0514F24B210738D6007E2DB5 /* ChargingDetailVC.swift */,
+				05E36CD72108DE3E002F6CA4 /* DirectionMapVC.swift */,
+				05D38D61210A3F5300710C6C /* ChargingAmountVC.swift */,
+				05048D48210F1F2900D60A3E /* StartChargingVC.swift */,
 			);
 			path = TVESAS;
 			sourceTree = "<group>";
@@ -477,10 +486,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TVESAS/Pods-TVESAS-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,6 +506,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TVESAS/Pods-TVESAS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -503,6 +515,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
@@ -559,12 +572,14 @@
 				0558BA5D20FE15980042B15C /* UILabelFontSize.swift in Sources */,
 				0558BA5E20FE15980042B15C /* Extensions.swift in Sources */,
 				0558BA6120FE15980042B15C /* UILabelCustomClass.swift in Sources */,
+				05E36CD82108DE3E002F6CA4 /* DirectionMapVC.swift in Sources */,
 				0545C03C20FF4F320033BDFF /* RightViewCell.swift in Sources */,
 				0558BA5C20FE15980042B15C /* AppManager.swift in Sources */,
 				05B7856C2101EE4B0011A18E /* PaymentVC.swift in Sources */,
 				0545C04020FF5E070033BDFF /* DetailVC.swift in Sources */,
 				0558BA7220FE61760042B15C /* HomeViewController.swift in Sources */,
 				0558BA6920FE4A720042B15C /* signup3VC.swift in Sources */,
+				05D38D62210A3F5300710C6C /* ChargingAmountVC.swift in Sources */,
 				0558BA7420FE650A0042B15C /* CustomtabbarVC.swift in Sources */,
 				0558BA6520FE15980042B15C /* UIImageViewCustomClass.swift in Sources */,
 				0558BA1B20FDFEDD0042B15C /* ViewController.swift in Sources */,
@@ -580,6 +595,7 @@
 				0558BA1920FDFEDD0042B15C /* AppDelegate.swift in Sources */,
 				0558BA5F20FE15980042B15C /* UIViewCustomClass.swift in Sources */,
 				0558BA5B20FE15980042B15C /* Utils.swift in Sources */,
+				05048D49210F1F2900D60A3E /* StartChargingVC.swift in Sources */,
 				05B7856A2101EDE70011A18E /* InformationVC.swift in Sources */,
 				0558BA7020FE5F740042B15C /* RightViewController.swift in Sources */,
 				0545C03A20FF46340033BDFF /* SWRevealViewController.m in Sources */,
@@ -674,6 +690,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -735,6 +752,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Naunihal Singh (FBADG7QKAH)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -766,10 +784,7 @@
 				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				INFOPLIST_FILE = TVESAS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
@@ -792,10 +807,7 @@
 				DEVELOPMENT_TEAM = PC8TU8J9F6;
 				INFOPLIST_FILE = TVESAS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9a106029-e2f8-46c1-9f21-5680b1a561e0";
@@ -814,11 +826,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TVESASTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -835,11 +843,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TVESASTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -855,11 +859,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TVESASUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESASUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -875,11 +875,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TVESASUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ratiocinative.TVESASUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

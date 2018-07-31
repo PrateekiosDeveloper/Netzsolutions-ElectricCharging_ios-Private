@@ -145,11 +145,14 @@ let kData = "data"
 let kUserLoginDict = "UserDict"
 
 let kLoginbaseURl = "http://zeroguess.net/010/chargingMachine/server/actionUser.php"
-
+let kSmsapi = "http://priority.thesmsworld.com/api.php"
 
 let kAllmachineDetailbaseURl = "http://zeroguess.net/010/chargingMachine/server/actionMachineStation.php"
 let kActivitybaseURl = "http://zeroguess.net/008/lottd/server/activity.php"
-let kReminderbaseURl = "http://zeroguess.net/008/lottd/server/reminder.php"
+let kChargerDetailbaseURl = "http://zeroguess.net/010/chargingMachine/server/actionMachineStation.php"
+let kActionTransactionbaseURl = "http://www.zeroguess.net/010/chargingMachine/server/actionTransaction.php"
+
+
 
 let kMethodLogin = "login"
 let kUserDefault = UserDefaults.standard

@@ -40,11 +40,13 @@ class SetPinVC: UIViewController,UITextFieldDelegate
         }
         return true
     }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {   //delegate method
         textField.resignFirstResponder()
         return true
     }
+    
     @IBAction func Signupclicked(_sender : UIButton)
     {
         if classname == "login"

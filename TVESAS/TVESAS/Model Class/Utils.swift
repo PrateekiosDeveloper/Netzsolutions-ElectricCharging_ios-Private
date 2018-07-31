@@ -49,7 +49,7 @@ class Utils: NSObject
     static func showProgressHud()
     {
         SVProgressHUD.setDefaultMaskType(.black)
-        SVProgressHUD.setBackgroundColor(UIColor.clear)
+        SVProgressHUD.setBackgroundColor(UIColor.white)
         DispatchQueue.main.async(execute: {
             SVProgressHUD.show()
         })

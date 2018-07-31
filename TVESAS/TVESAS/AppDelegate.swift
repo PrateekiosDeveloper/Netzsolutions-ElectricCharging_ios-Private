@@ -9,7 +9,7 @@
 import UIKit
 import IQKeyboardManagerSwift
 import GoogleMaps
-
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,8 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
         
         GMSServices.provideAPIKey("AIzaSyBvrCwuehY8SuHzLzm60ziXNCB5ehXpXRs")
-       // GMSPlacesClient.provideAPIKey("AIzaSyBvrCwuehY8SuHzLzm60ziXNCB5ehXpXRs")
-       
+        GMSPlacesClient.provideAPIKey("AIzaSyBvrCwuehY8SuHzLzm60ziXNCB5ehXpXRs")
         return true
     }
 

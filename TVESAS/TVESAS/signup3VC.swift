@@ -18,6 +18,7 @@ class signup3VC: UIViewController,UITextFieldDelegate
        @IBOutlet weak var txt_Email : UITextField!
        @IBOutlet weak var txt_cityname : UITextField!
        @IBOutlet weak var txt_Profileimage : UITextField!
+      @IBOutlet weak var txt_pwd : UITextField!
       @IBOutlet weak var img_profile : UIImageView!
       var phonenumber = String()
      var pwd = String()
@@ -52,6 +53,12 @@ class signup3VC: UIViewController,UITextFieldDelegate
     
     func isValidate() -> Bool
     {
+        if txt_pwd.isEmpty
+        {
+            txt_pwd.becomeFirstResponder()
+            Utils.showAlertWithMessage(message: "Please enter Password!", onViewController: self)
+            return false
+        }
         if txt_Username.isEmpty
         {
             txt_Username.becomeFirstResponder()
@@ -82,7 +89,10 @@ class signup3VC: UIViewController,UITextFieldDelegate
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {
-        
+        if textField == txt_pwd
+        {
+            txt_Username.becomeFirstResponder()
+        }
         if textField == txt_Username
         {
             txt_Email.becomeFirstResponder()
@@ -95,7 +105,7 @@ class signup3VC: UIViewController,UITextFieldDelegate
         
         if textField == txt_cityname
         {
-            txt_Profileimage.becomeFirstResponder()
+           textField .resignFirstResponder()
         }
         
         return true
@@ -115,7 +125,7 @@ extension signup3VC
          
             
             let paramDict: Parameters = ["task": "addUser","email":txt_Email.text!,
-                                         "password": pwd,
+                                         "password": txt_pwd.text!,
                                          "first_name":txt_Username.text!,
                                          "last_name": "",
                                          "city": txt_cityname.text! ,

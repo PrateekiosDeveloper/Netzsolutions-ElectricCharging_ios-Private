@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 //MARK: Base URL
 
@@ -41,7 +42,23 @@ class Networkmanager: NSObject
     
    //MARK: SocialLogin
     
-    
+    //MARK: Login
+    func loginWithSMSParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
+    {
+        let postURL = String(format: "\(kSmsapi)")
+        var request = URLRequest(url: URL(string: postURL)!)
+        request.httpMethod = "POST"
+       // request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        // request.setValue("richestLifeAdmin", forHTTPHeaderField: "username")
+        //  request.setValue("123456", forHTTPHeaderField: "password")
+        
+      //  request.setValue(authToken, forHTTPHeaderField: "Authorization")
+        request.httpBody = try! JSONSerialization.data(withJSONObject: paramDict)
+        Alamofire.request(request)
+            .responseJSON { response in
+                completionBlock(response)
+        }
+    }
     
     
     func loginWithStationDetailParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
@@ -62,9 +79,9 @@ class Networkmanager: NSObject
     }
     
     
-    func loginWithActivityParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
+    func GetchargerDetailWithParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
     {
-        let postURL = String(format: "\(kActivitybaseURl)")
+        let postURL = String(format: "\(kChargerDetailbaseURl)")
         var request = URLRequest(url: URL(string: postURL)!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -79,11 +96,9 @@ class Networkmanager: NSObject
         }
     }
     
-    
-    
-    func loginWithReminderParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
+    func StartTransactionWithParam(params paramDict : Parameters, completionBlock :@escaping CompletionHandler)
     {
-        let postURL = String(format: "\(kReminderbaseURl)")
+        let postURL = String(format: "\(kActionTransactionbaseURl)")
         var request = URLRequest(url: URL(string: postURL)!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -98,5 +113,6 @@ class Networkmanager: NSObject
         }
     }
     
+ 
     
 }
